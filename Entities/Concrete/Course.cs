@@ -1,10 +1,7 @@
-﻿using Entities.Abstract;
+﻿namespace Entities.Concrete;
 
-namespace Entities.Concrete;
-
-public class Course : IEntity
+public class Course : BaseEntity
 {
-    public int Id { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public string Image { get; set; }
