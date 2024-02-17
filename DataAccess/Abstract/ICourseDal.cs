@@ -1,6 +1,6 @@
 ﻿using Entities.Concrete;
 namespace DataAccess.Abstract;
 
-public interface ICourseDal : IEntityRepository<Course>
+public interface ICourseDal : IGenericDal<Course>
 {
 }

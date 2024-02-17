@@ -1,6 +1,6 @@
 ﻿namespace DataAccess.Abstract;
 
-public interface IEntityRepository<T>
+public interface IGenericDal<T>
 {
     void Add(T entity);
     void Delete(T entity);
